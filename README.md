@@ -1,7 +1,7 @@
 <h1>Group policy, password policy, and account locked </h1>
 
 <h2>Description</h2>
-THe following lab consists of some fundamental policies that can be applied to users and password policies, as well as locking out a user and how to let them log back in.Policy is very important, since it sets boundaries for employees for a safer IT environment, and adding policies to passwords will enhance the computer's security in a company. Also, +users not being able to log-in to a computer is one of the most common issues in IT support, so comprehending this information is valuable.
+THe following lab consists of some fundamental policies that can be applied to users and password policies, as well as locking out a user and how to let them log back in.Policy is very important, since it sets boundaries for employees for a safer IT environment, and adding policies to passwords will enhance the computer's security in a company. Also, users not being able to log-in to a computer is one of the most common issues in IT support, so comprehending this information is valuable.
 <br />
 
 
