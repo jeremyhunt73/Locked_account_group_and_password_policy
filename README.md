@@ -36,7 +36,7 @@ A very relevant policy is logon hours. In user properties I clicked account and 
  <img src="https://i.imgur.com/1dCZueT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Another useful policy is setting an end date for a user to log-in, this is usually applied to employees who's term is expected to end soon. If they try log-in after the expiration date, they will receive an error message. <br/>
+Another useful policy is setting an end date for a user to log-in, this is usually applied to employees who's term is expected to end soon. If they try logging in after the expiration date, they will receive an error message. <br/>
  <br />
 <img src="https://i.imgur.com/XFbrt31.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
