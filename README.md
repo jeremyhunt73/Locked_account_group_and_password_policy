@@ -36,9 +36,9 @@ A very relevant policy is logon hours. In user properties I clicked account and 
  <img src="https://i.imgur.com/1dCZueT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-To join the machine to the domain I headed to File Explorer → right click This PC → properties → domain or workgroup → change → typed the domain jerhunt.com → entered the credentials the window asks for. I went to Users and Computers on Server 2016 and opened the Computers folder to verify that it worked.  <br/>
+Another useful policy is setting an end date for a user to log-in, this is usually applied to employees who's term is expected to end soon. If they try log-in after the expiration date, they will receive an error message. <br/>
  <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XFbrt31.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 A window saying that a restart is required will pop-up, I restarted the machine. Meanwhile it was restarting, from the Server 2016 machine I allowed remote connections via system properties. Finally, in Windows 11 machine I headed over to Remote Desktop Connection, typed the Server 2016 IP address, and entered my credentials. If it works, a window will appear to confirm the changes. After this, I obtained access to the domain. <br/>
