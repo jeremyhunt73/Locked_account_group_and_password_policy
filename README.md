@@ -31,6 +31,9 @@ After completely disabling the user, if I try to log in as Joseph in Windows 11 
 <img src="https://i.imgur.com/3xcwyZF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+<img src="https://i.imgur.com/cPJ4fNT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 A very relevant policy is logon hours. In user properties I clicked account and opened logon hours. It's possible to choose at what time or date a user can log in to a computer, this is useful in work environment for safety measures. <br/>
  <br />
 <img src=https://i.imgur.com/pXI3703.png"" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -55,11 +58,26 @@ Some of the most crucial password policies are expiration (how long the password
 <img src="https://i.imgur.com/hU3xJJW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+If a user fails to log-in after certain amount of attempts, their account can be locked out for a set amount of time, this helps prevent brute force attacks. <br/>
+ <br />
+<img src="https://i.imgur.com/1o04sZb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+<img src="https://i.imgur.com/c2WZWzl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/to5P6Es.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Applied group policies can be viewed by typing "gpresults /r" and "user name_of_user /domain" in CMD. It can also be viewed in default domain policy settings in Group Policy Management (a few windows will pop-up, I just clicked add). <br/>
+ <br />
+<img src="https://i.imgur.com/H2ZYvn4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+<br />
+<img src="https://i.imgur.com/zyd0Hwk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/O7GRnun.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
