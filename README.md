@@ -1,7 +1,7 @@
 <h1>Group policy, password policy, and account locked </h1>
 
 <h2>Description</h2>
-THe following lab consists of some fundamental policies that can be applied to users and password policies, as well as locking out a user and how to let them log back in.Policy is very important, since it sets boundaries for employees for a safer IT environment, and adding policies to passwords will enhance the computer's security in a company. Also, users not being able to log-in to a computer is one of the most common issues in IT support, so comprehending this information is valuable.
+THe following lab consists of some fundamental policies that can be applied to users and password policies, as well as locking out a user and how to let them log back in.Policy is very important, since it sets boundaries for employees for a safer IT environment, and adding policies to passwords will enhance the computer's security in a company. Also, users not being able to log-in to a computer is one of the most common issues in IT support, so comprehending this information is valuable and it's also implemented in cybersecurity.
 <br />
 
 
@@ -23,9 +23,12 @@ I deleted Joseph and disabled this account, a user created in Server 2016 and lo
  <img src="https://i.imgur.com/hZknDzQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-After completely disabling the user, if I try to log in as Joseph in Windows 11 machine, it won't work, and an error message will pop-up. <br/>
+After completely disabling the user, if I try to log in as Joseph in Windows 11 machine, it won't work, and an error message will pop-up. A user can be unlocked by simply checking "unlock account" in the account tab. <br/>
  <br />
 <img src="https://i.imgur.com/2G9sEGD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/3xcwyZF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 A very relevant policy is logon hours. In user properties I clicked account and opened logon hours. It's possible to choose at what time or date a user can log in to a computer, this is useful in work environment for safety measures. <br/>
@@ -41,15 +44,17 @@ Another useful policy is setting an end date for a user to log-in, this is usual
 <img src="https://i.imgur.com/XFbrt31.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-A window saying that a restart is required will pop-up, I restarted the machine. Meanwhile it was restarting, from the Server 2016 machine I allowed remote connections via system properties. Finally, in Windows 11 machine I headed over to Remote Desktop Connection, typed the Server 2016 IP address, and entered my credentials. If it works, a window will appear to confirm the changes. After this, I obtained access to the domain. <br/>
+Some of the most crucial password policies are expiration (how long the password will be valid for) and length (minimum characters required). These are fully customizable and key to make the log-in more secure. To do this, I headed over to Group Management Policy → right-clicked default domain policy → edit → Windows settings → security settings → account policy. <br/>
  <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZEcEeEu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9zPihGR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- 
+<img src="https://i.imgur.com/hU3xJJW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
  ```diff
 - text in red
 + text in green
