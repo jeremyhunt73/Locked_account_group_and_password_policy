@@ -36,7 +36,7 @@ After completely disabling the user, if I try to log in as Joseph in Windows 11 
 <br />
 A very relevant policy is logon hours. In user properties I clicked account and opened logon hours. It's possible to choose at what time or date a user can log in to a computer, this is useful in work environment for safety measures. <br/>
  <br />
-<img src=https://i.imgur.com/pXI3703.png"" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pXI3703.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  <img src="https://i.imgur.com/1dCZueT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
